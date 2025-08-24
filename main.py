@@ -19,3 +19,18 @@ print(f"My mother's mother's name is {grandmother}")
 print(f"My mother's father's name is {grandfather}")
 print(f"My father's mother's name is {grandmother2}")
 print(f"My father's father's name is {grandfather2}")
+
+# Tuples without brackets
+vegetables = "carrots","eggplants","corn"
+print(vegetables)
+
+# Tuple Slicing
+fruits = ("apple","banana","durian","lychee","papaya","persimmon")
+print(fruits[1:5])
+print(fruits[2:])
+
+# Nested tuples
+nested_tuples = ("donkey","orangutan","flamingo","dog",("dondon","orange","flashy","woofus"))
+animal = nested_tuples[1]
+name = nested_tuples[4][1]
+print(f"The {animal}'s name is {name} !")
